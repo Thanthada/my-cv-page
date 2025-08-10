@@ -1,0 +1,21 @@
+body {
+    background-color: #e9ecef; /* สีเทาอ่อนๆ สบายตา */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ดูโดดเด่น */
+}
+
+/* ทำให้ปุ่มมีเอฟเฟกต์เมื่อวางเมาส์เหนือ */
+.btn-primary:hover {
+    transform: translateY(-2px); /* ปุ่มขยับขึ้นเล็กน้อย */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* จัดสไตล์สำหรับ Badges */
+.badge {
+    font-size: 0.9rem;
+}
